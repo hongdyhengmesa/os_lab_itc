@@ -1,0 +1,9 @@
+#!/bin/bash
+expr=$1
+
+if [ -z "$expr" ]; then
+  echo "Usage: ./mycal.sh 4+2"
+  exit 1
+fi
+
+echo "Result = $(echo "$expr" | bc)"

@@ -1,0 +1,253 @@
+    1  ls
+    2  cd lab2
+    3  clear
+    4  ssh gic-hong-dyhengmesa@192.168.22.122
+    5  mkdir lab3
+    6  ls
+    7  mv
+    8  mv lab3
+    9  mv -d
+   10  mv -d lab3
+   11  rmdir lab3
+   12  ls
+   13  mdir lab3
+   14  mkdir lab3
+   15  ls
+   16  touch file{1,2,3}.txt
+   17  cd lab3
+   18  ls
+   19  cd ..
+   20  ls
+   21  tree
+   22  ls
+   23  cd lab3
+   24  mkdir CopyingFolder
+   25  ls
+   26  cp copied.txt \Document
+   27  ls
+   28  touch copied.txt
+   29  ls
+   30  cd ..
+   31  mkdir Documents
+   32  ls
+   33  cd Documents
+   34  cp copied.txt ~/Documents/
+   35  ls
+   36  cd ..
+   37  ls
+   38  rm Documents
+   39  cd lab3
+   40  ls
+   41  cd CopyingFolder
+   42  ls
+   43  mv copied.txt CopyingFolder/
+   44  mv ../copied.txt CopyingFolder/
+   45  mv ../copied.txt 
+   46  mv ../copied.txt  CopyingFolder/
+   47  mv ../copied.txt  CopyingFolder/ .
+   48  mv ../copied.txt .
+   49  mv /copied.txt .
+   50  mv copied.txt .
+   51  mv ../copied.txt .
+   52  cd ..
+   53  rm *.txt
+   54  rm copied.txt
+   55  ls
+   56  cd CopyingFolder
+   57  ls
+   58  cp copied.txt ~/Documents/
+   59  ls
+   60  cd CopyingFolder
+   61  cd 
+   62  CopyingFolder
+   63  Cd CopyingFolder
+   64  cd CopyingFolder
+   65  cd lab3
+   66  ls
+   67  cd CopyingFolder
+   68  touch file{one,two,three,four,five}.txt
+   69  ls
+   70  cp *.txt ~/lab3/CopyingFolder/
+   71  cp -r ~/lab3/CopyingFolder ~/Desktop/
+   72  ls
+   73  cd ~/Documents
+   74  touch {one_document,two_document,three_document,four_document,five_document}.txt  
+   75  ls
+   76  echo "1" > one_document.txt
+   77  echo "2" > two_document.txt
+   78  echo "3" > three_document.txt
+   79  echo "4" > four_document.txt
+   80  echo "5" > five_document.txt
+   81  ls
+   82  tree
+   83  ls
+   84  mv one_document.txt document_un.txt 
+   85  mv two_document.txt document_deux.txt
+   86  mv three_document.txt document_trois.txt 
+   87  mv four_document.txt document_quatre.txt 
+   88  mv five_document.txt document_cinque.txt 
+   89  ls
+   90  mkdir MoveFolder
+   91  ls
+   92  cd ..
+   93  cd MoveFolder
+   94  ls
+   95  mkdir MoveFolder
+   96  cd ..
+   97  cd lab3
+   98  cd ..
+   99  cd lab3
+  100  ls
+  101  cd lab3
+  102  ls
+  103  tree
+  104  ls
+  105  cd
+  106  ls
+  107  cd /Desktop
+  108  clear
+  109  ls 
+  110  cd lab2
+  111  ls
+  112  cd ex1
+  113  ls
+  114  cd ~
+  115  cd lab2
+  116  ls
+  117  ls ex1
+  118  ls result1.txt
+  119  ls ex2
+  120  ls
+  121  tree
+  122  ls
+  123  cd lab
+  124  cd lab3
+  125  ls
+  126  cd ..
+  127  cd lab3
+  128  ls
+  129  cd CopyingFolder
+  130  ls
+  131  tree
+  132  cd .
+  133  cd ..
+  134  cd lab2
+  135  ls
+  136  tree
+  137  cd .
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd lab3
+  142  ls
+  143  tree
+  144  ls
+  145  cd lab2
+  146  ls
+  147  tree
+  148  ls
+  149  rm *.txt
+  150  ls
+  151  mkdir class_activity1 class_activity2 class_activity3
+  152  ls
+  153  git init
+  154  git branch
+  155  git remote add origin https://github.com/hongdyhengmesa/os_lab_itc.git
+  156  git remote -v
+  157  git branch
+  158  git status
+  159  ls
+  160  mkdir lab4
+  161  ls
+  162  git add lab2/
+  163  git add lab3/
+  164  git status
+  165  ls
+  166  git add lab4/
+  167  git status
+  168  rmd lab4
+  169  rmdir lab4
+  170  rm -r lab4
+  171  ls
+  172  rm -r MoveFolder
+  173  ls
+  174  rm -r Desktop
+  175  rm -r Documents
+  176  ls
+  177  nano .gitignore
+  178  git reset
+  179  git status
+  180  ls
+  181  git status
+  182  git .ignore
+  183  touch .ignore
+  184  nano .gitignore
+  185  ls
+  186  git status
+  187  git commit -m "first commit"
+  188  git config --global user.email "mesahongdyhengmesa@gmail.com"
+  189  git config --global user.name "hongdyhengmesa"
+  190  git config user.name
+  191  git config user.email
+  192  git commit -m "first commit"
+  193  git push origin master
+  194  git push origin main
+  195  git branch
+  196  git status
+  197  git int
+  198  clear
+  199  ls
+  200  git remote -v
+  201  git status 
+  202  nano .gitignore
+  203  git status
+  204  git add .
+  205  git status
+  206  git push origin main
+  207  git push origin master
+  208  git remote -v
+  209  git push origin master
+  210  git push origin main
+  211  git commit -m"init"
+  212  git push origin master
+  213  waysor
+  214  ls
+  215  cd lab4
+  216  ls
+  217  cd challenge1
+  218  ls
+  219  cd analysis
+  220  ls
+  221  cd ..
+  222  cd original_log
+  223  ls
+  224  ls | wc -l
+  225  wc -l access.log
+  226  head -n 5 access.log
+  227  tail -n 5 access.log
+  228  grep -oP '\[\K[^\]]+' access.log | head -n 1
+  229  grep -oP '\[\K[^\]]+' access.log | tail -n 1
+  230  ls
+  231  cd lab4
+  232  ls
+  233  tree
+  234  cd challenge1
+  235  cd original_log
+  236  ls | wc -l
+  237  wc -l access.log
+  238  head -n 5 access.log
+  239  tail -n 5 access.log
+  240  grep -oP '\[\K[^\]]+' access.log | head -n 1
+  241  grep -oP '\[\K[^\]]+' access.log | tail -n 1
+  242  grep -E " 401 | 403 " access.log > failed_raw.txt
+  243  awk '/ 401 | 403 / {print $1}' access.log | sort | uniq -c | sort -nr > failed_by_ip.txt
+  244  grep -E " 401 | 403 " access.log > ../analysis/task2_failed_logins.txt
+  245  grep -E " 401 | 403 " access.log > ../analysis/task1_failed_logins.txt
+  246  grep -Ei "bot|scan|exploit|curl|wget" access.log > suspicious_agents.txt
+  247  grep -Ei "/wp-admin|/admin|/.git" access.log > suspicious_paths.txt
+  248  grep -E "\?cmd=" access.log > suspicious_cmd.txt
+  249  grep -E " 401 | 403 " access.log > ../analysis/suspicious_actiivity.txt
+  250  awk '{print $1}' access.log | sort | uniq -c | sort -nr | head -n 5 > top_ips.txt
+  251  awk -F: '{print $2}' access.log | sort | uniq -c | sort -nr > requests_per_hour.txt
+  252  grep -E " 401 | 403 " access.log > ../analysis/attack_patterns.txt
+  253  history > command_history.txt

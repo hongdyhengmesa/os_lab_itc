@@ -1,0 +1,1 @@
+45.33.2.79 - - [15/Oct/2023:08:19:12 +0000] "GET /?cmd=whoami HTTP/1.1" 404 321 "Mozilla/5.0 (ExploitScanner)"
