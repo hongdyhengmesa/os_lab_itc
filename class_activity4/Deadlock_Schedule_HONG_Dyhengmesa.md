@@ -102,3 +102,4 @@ Because all threads follow the same order, deadlock cannot occur even if transfe
 ```
 Deadlock is a serious issue in concurrent systems but can be prevented through careful design. In this activity, deadlock was avoided by using fixed resource ordering. This method is simple, effective, and commonly used in real-world systems such as databases and operating systems.
 ```
+[https://github.com/hongdyhengmesa/os_lab_itc.git]
